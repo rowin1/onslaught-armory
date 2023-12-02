@@ -44,7 +44,7 @@
     <td>
       <!-- <a href={link} rel="ench={enchantId}"> -->
       <a href={link}>
-        <span style="color:{qualityColor(quality)}">{itemName}</span>
+        <span style="color:{qualityColor(quality)}" data-has-wh-touch-event="true">{itemName}</span>
       </a>
     </td>
     <td>{source}</td>
@@ -55,5 +55,9 @@
         font-family: verdana, Helvetica Neue, Arial;
         font-size: 10.5px;
         -webkit-font-smoothing: antialiased;
+    }
+
+    td {
+        border: .5pt solid;
     }
   </style>

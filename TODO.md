@@ -4,3 +4,4 @@
 - [ ] Embed talents
 - [ ] Add list of boss fights for BFD and recommended runes for each encounter
 - [ ] Update favicon
+- [ ] Fix stlying of tables on gear pages
