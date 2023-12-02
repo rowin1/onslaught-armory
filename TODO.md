@@ -1,0 +1,5 @@
+- [ ] Add list of enchants for different phases
+- [ ] Add list of runes
+- [ ] Flesh out how to import from spreadsheet
+- [ ] Embed talents
+- [ ] Add list of boss fights for BFD and recommended runes for each encounter

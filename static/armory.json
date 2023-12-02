@@ -1,0 +1,35 @@
+[
+  {
+    "className": "priest",
+    "enchants": [],
+    "runes": [],
+    "gear": [
+      {
+        "slotName": "head",
+        "items": [
+          {
+            "itemName": "Shadow Goggles",
+            "icon": "",
+            "link": "https://www.wowhead.com/classic/item=4373/shadow-goggles",
+            "quality": "uncommon",
+            "source": "Engineering (120)",
+            "enchantId": ""
+          }
+        ]
+      },
+      {
+        "slotName": "chest",
+        "items": [
+          {
+            "itemName": "Robes of Arugal",
+            "icon": "",
+            "link": "https://www.wowhead.com/classic/item=6324/robes-of-arugal",
+            "quality": "rare",
+            "source": "Archmage Arugal",
+            "enchantId": "847"
+          }
+        ]
+      }
+    ]
+  }
+]
