@@ -53,7 +53,7 @@
 <style>
     tr {
         font-family: verdana, Helvetica Neue, Arial;
-        font-size: 10.5px;
+        font-size: 12px;
         -webkit-font-smoothing: antialiased;
     }
 
