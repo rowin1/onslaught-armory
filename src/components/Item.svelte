@@ -39,18 +39,18 @@
         }
     }
 </script>
-  
-  <tr>
+
+<tr>
     <td>
-      <!-- <a href={link} rel="ench={enchantId}"> -->
-      <a href={link}>
+        <!-- <a href={link} rel="ench={enchantId}"> -->
+        <a href={link} target="_blank">
         <span style="color:{qualityColor(quality)}" data-has-wh-touch-event="true">{itemName}</span>
-      </a>
+        </a>
     </td>
     <td>{source}</td>
-  </tr>
+</tr>
 
-  <style>
+<style>
     tr {
         font-family: verdana, Helvetica Neue, Arial;
         font-size: 10.5px;
@@ -60,4 +60,4 @@
     td {
         border: .5pt solid;
     }
-  </style>
+</style>
