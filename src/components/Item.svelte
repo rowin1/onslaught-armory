@@ -43,8 +43,8 @@
 <tr>
     <td>
         <!-- <a href={link} rel="ench={enchantId}"> -->
-        <a href={link} target="_blank">
-        <span style="color:{qualityColor(quality)}" data-has-wh-touch-event="true">{itemName}</span>
+        <a href={link}>
+            <span style="color:{qualityColor(quality)}" data-has-wh-touch-event="true">{itemName}</span>
         </a>
     </td>
     <td>{source}</td>

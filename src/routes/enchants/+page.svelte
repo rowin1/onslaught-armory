@@ -1,34 +1,34 @@
 <script>
     import { base } from '$app/paths';
     import { onMount } from 'svelte';
-    import Item from '../../components/Item.svelte';
+    import Enchant from '../../components/Enchant.svelte';
 
     /** @type {any} */
-    export let data;
-
-    /** @type {any} */
-    let enchants = [];
-
-    /** @type {any} */
-    let runes = [];
-
-    /** @type {any} */
-    let gear = {"twenty-five": []};
+    let slotEnchants = []
 
     onMount(async () => {
-        const res = await fetch(`${base}/${data.className}.json`);
-        ({ enchants, runes, gear } = await res.json());
+        const res = await fetch(`${base}/enchants.json`);
+        slotEnchants = await res.json();
     });
 
     let bracketFilter = "twenty-five";
-    const filterGear = (gear, bracket) => {
-        return gear[bracket];
+    $: professionLevel = (bracketFilter) => {
+        switch (bracketFilter) {
+            case 'twenty-five':
+                return 225;
+            case 'forty':
+                return 300;
+            case 'fifty':
+                return 300;
+            case 'sixty':
+                return 300;
+            default:
+                return 225;
+        }
     }
-
-    $: bracketGear = filterGear(gear, bracketFilter)
 </script>
 
-<span>{data.className}</span>
+<span>Enchants</span>
 <label for="bracket">bracket:</label>
     <select bind:value={bracketFilter} name="bracket" id="bracket">
         <option value="twenty-five">twenty-five</option>
@@ -38,19 +38,17 @@
     </select>
 
 <table>
-    <tr>
-        <td>slot</td>
-        <td>source</td>
-    </tr>
-
-    {#each bracketGear as {items, slotName}}
+    {#each slotEnchants as {enchants, slotName}}
         <tr class="slotName">
             <td>{slotName}</td>
         </tr>
 
-        {#each items as { itemName, link, icon, quality, enchantId, source}}
-            <Item {itemName} {link} {icon} {quality} {enchantId} {source}/>
+        {#each enchants as enchant}
+            {#if enchant.professionLevel <= professionLevel(bracketFilter)}
+                <Enchant {...enchant} />
+            {/if}
         {/each}
+
         <td>&nbsp</td>
     {/each}
 </table>

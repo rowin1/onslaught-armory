@@ -24,6 +24,14 @@
         <td>runes</td>
     </tr>
     {/each} 
+    <tr>
+        <td>
+            <img src="misc-icons/enchanting.png" alt="enchanting icon"/>
+        </td>
+        <td>
+            <a href="{base}/enchants">enchants</a>
+        </td>
+    </tr>
 </table>
 
 <style>
