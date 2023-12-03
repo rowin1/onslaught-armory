@@ -1,3 +1,112 @@
-{
-    
-}
+[
+    {
+        "slotName": "cloak",
+        "enchants": [
+            {
+                "enchantName": "Enchant Cloak - Lesser Agility",
+                "url": "https://classic.wowhead.com/spell=13882/enchant-cloak-lesser-agility",
+                "professionLevel": "225"
+            },
+            {
+                "enchantName": "Enchant Cloak - Greater Defense",
+                "url": "https://classic.wowhead.com/spell=13746/enchant-cloak-greater-defense",
+                "professionLevel": "205"
+            },
+            {
+                "enchantName": "Enchant Cloak - Resistance",
+                "url": "https://classic.wowhead.com/spell=13794/enchant-cloak-resistance",
+                "professionLevel": "205"
+            },
+            {
+                "enchantName": "Enchant Cloak - Fire Resistance",
+                "url": "https://classic.wowhead.com/spell=13657/enchant-cloak-fire-resistance",
+                "professionLevel": "175"
+            },
+            {
+                "enchantName": "Enchant Cloak - Lesser Shadow Resistance",
+                "url": "https://classic.wowhead.com/spell=13522/enchant-cloak-lesser-shadow-resistance",
+                "professionLevel": "135"
+            }
+        ]
+    },
+    {
+        "slotName": "chest",
+        "enchants": [
+            {
+                "enchantName": "Enchant Chest - Superior Health",
+                "url": "https://classic.wowhead.com/spell=13858/enchant-chest-superior-health",
+                "professionLevel": "220"
+            },
+            {
+                "enchantName": "Enchant Chest - Lesser Stats",
+                "url": "https://classic.wowhead.com/spell=13700/enchant-chest-lesser-stats",
+                "professionLevel": "200"
+            },
+            {
+                "enchantName": "Enchant Chest - Greater Mana",
+                "url": "https://classic.wowhead.com/spell=13663/enchant-chest-greater-mana",
+                "professionLevel": "185"
+            },
+            {
+                "enchantName": "Enchant Chest - Greater Health",
+                "url": "https://www.wowhead.com/classic/spell=13640/enchant-chest-greater-health",
+                "professionLevel": "185"
+            },
+            {
+                "enchantName": "Enchant Chest - Minor Stats",
+                "url": "https://www.wowhead.com/classic/spell=13626/enchant-chest-minor-stats",
+                "professionLevel": "150"
+            },
+            {
+                "enchantName": "Enchant Chest - Mana",
+                "url": "https://www.wowhead.com/classic/spell=13607/enchant-chest-mana",
+                "professionLevel": "145"
+            },
+            {
+                "enchantName": "Enchant Chest - Lesser Absorption",
+                "url": "https://www.wowhead.com/classic/spell=13538/enchant-chest-lesser-absorption",
+                "professionLevel": "140"
+            },
+            {
+                "enchantName": "Enchant Chest - Health",
+                "url": "https://www.wowhead.com/classic/spell=7857/enchant-chest-health",
+                "professionLevel": "120"
+            },
+            {
+                "enchantName": "Enchant Chest - Lesser Mana",
+                "url": "https://www.wowhead.com/classic/spell=7776/enchant-chest-lesser-mana",
+                "professionLevel": "80"
+            },
+            {
+                "enchantName": "Enchant Chest - Lesser Health",
+                "url": "https://www.wowhead.com/classic/spell=7748/enchant-chest-lesser-health",
+                "professionLevel": "60"
+            },
+            {
+                "enchantName": "Enchant Chest - Minor Absorption",
+                "url": "https://www.wowhead.com/classic/spell=7426/enchant-chest-minor-absorption",
+                "professionLevel": "40"
+            },
+            {
+                "enchantName": "Enchant Chest - Minor Mana",
+                "url": "https://www.wowhead.com/classic/spell=7443/enchant-chest-minor-mana",
+                "professionLevel": "20"
+            },
+            {
+                "enchantName": "Enchant Chest - Minor Health",
+                "url": "https://www.wowhead.com/classic/spell=7420/enchant-chest-minor-health",
+                "professionLevel": "15"
+            }
+        ]
+    },
+    {
+        "slotName": "bracers",
+        "enchants": [
+            {
+                "enchantName": "",
+                "url": "",
+                "professionLevel": ""
+            }
+        ]
+    }
+]
